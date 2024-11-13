@@ -30,6 +30,13 @@ public class Tenant extends Person{
         paymentRecords = new ArrayList<Payment>();
     }
 
+    public Tenant(String id, String name, Date dob, String phoneNumber, List<RentalAgreement> rentalAgreements, List<Payment> paymentRecords){
+        super(id, name, dob, phoneNumber);
+        this.rentalAgreements = rentalAgreements;
+        currentRentalProperties = new ArrayList<Property>();
+        this.paymentRecords = paymentRecords;
+    }
+
     public boolean rentProperty(Property property){
         // checking is done somewhere else
         currentRentalProperties.add(property);

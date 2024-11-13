@@ -6,26 +6,26 @@ import java.util.ArrayList;
 
 public class Host extends Person {
     private List<Property> managedProperty;
-    private List<Person> cooperatingOwners;
+    private List<Owner> cooperatingOwners;
     private List<RentalAgreement> rentalAgreements;
 
     public Host() {
         super();
         managedProperty = new ArrayList<Property>();
-        cooperatingOwners = new ArrayList<Person>();
+        cooperatingOwners = new ArrayList<Owner>();
         rentalAgreements = new ArrayList<RentalAgreement>();
     }
 
     public Host(String id, String name, Date dob, String phoneNumber) {
         super(id, name, dob, phoneNumber);
         managedProperty = new ArrayList<Property>();
-        cooperatingOwners = new ArrayList<Person>();
+        cooperatingOwners = new ArrayList<Owner>();
         rentalAgreements = new ArrayList<RentalAgreement>();
     }
 
     public Host(String id, String name, Date dob, String phoneNumber,
                 List<Property> managedProperty,
-                List<Person> cooperatingOwners,
+                List<Owner> cooperatingOwners,
                 List<RentalAgreement> rentalAgreements) {
         super(id, name, dob, phoneNumber);
         this.managedProperty = managedProperty;
@@ -34,9 +34,9 @@ public class Host extends Person {
     }
 
     public List<Property> getManagedProperty() {return managedProperty;}
-    public List<Person> getCooperatingOwners() {return cooperatingOwners;}
+    public List<Owner> getCooperatingOwners() {return cooperatingOwners;}
     public List<RentalAgreement> getRentalAgreements() {return rentalAgreements;}
     public void setManagedProperty(List<Property> managedProperty) {this.managedProperty = managedProperty;}
-    public void setCooperatingOwners(List<Person> cooperatingOwners) {this.cooperatingOwners = cooperatingOwners;}
+    public void setCooperatingOwners(List<Owner> cooperatingOwners) {this.cooperatingOwners = cooperatingOwners;}
     public void setRentalAgreements(List<RentalAgreement> rentalAgreements) {this.rentalAgreements = rentalAgreements;}
 }
