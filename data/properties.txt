@@ -1,0 +1,15 @@
+RP007 | 123 Oak Street | 2000.0 | RENTED | O005 | H005 | Bedrooms:4,Garden:true,PetFriendly:true
+CP004 | 456 Spruce Avenue | 3000.0 | AVAILABLE | O004 | H004 | BusinessType:Retail,ParkingSpace:10,SquareFootage:1500.0
+RP009 | 654 Ash Drive | 2200.0 | AVAILABLE | O005 | H005 | Bedrooms:2,Garden:false,PetFriendly:true
+CP011 | 789 Redwood Drive | 3900.0 | RENTED | O010 | H010 | BusinessType:Retail,ParkingSpace:25,SquareFootage:2800.0
+CP010 | 654 Cypress Plaza | 4100.0 | AVAILABLE | O009 | H009 | BusinessType:Office,ParkingSpace:18,SquareFootage:2500.0
+RP010 | 654 Walnut Lane | 2400.0 | AVAILABLE | O007 | H007 | Bedrooms:4,Garden:false,PetFriendly:true
+CP009 | 951 Elm Road | 4200.0 | AVAILABLE | O005 | H005 | BusinessType:Warehouse,ParkingSpace:20,SquareFootage:3000.0
+RP011 | 321 Pine Court | 2800.0 | RENTED | O006 | H006 | Bedrooms:3,Garden:true,PetFriendly:false
+RP012 | 789 Sycamore Blvd | 2900.0 | AVAILABLE | O008 | H008 | Bedrooms:5,Garden:true,PetFriendly:true
+CP006 | 456 Maple Plaza | 4000.0 | RENTED | O006 | H006 | BusinessType:Retail,ParkingSpace:12,SquareFootage:2000.0
+RP013 | 345 Willow Street | 2700.0 | RENTED | O009 | H009 | Bedrooms:3,Garden:false,PetFriendly:true
+RP003 | 321 Maple Avenue | 2500.0 | AVAILABLE | O007 | H007 | Bedrooms:3,Garden:true,PetFriendly:false
+RP014 | 123 Aspen Avenue | 3500.0 | AVAILABLE | O010 | H010 | Bedrooms:5,Garden:true,PetFriendly:true
+CP008 | 987 Cedar Road | 2600.0 | AVAILABLE | O008 | H008 | BusinessType:Office,ParkingSpace:15,SquareFootage:1800.0
+RP005 | 789 Birch Lane | 1800.0 | RENTED | O004 | H004 | Bedrooms:3,Garden:true,PetFriendly:false
